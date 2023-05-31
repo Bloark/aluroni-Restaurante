@@ -53,3 +53,24 @@ export default function Cardapio() {
   font-family: 'Italiana', serif;
   }
 ```
+15. Importando o Nomarlize @import-normalize; no src/index.css para reset do css
+16. instalando o npm install normalize.css
+17. importando o normalize no index.tsx
+```js
+    import React from 'react';
+    import ReactDOM from 'react-dom/client';
+    import "normalize.css"
+    import './index.css';
+    import Cardapio from './pages/Cardapio';
+
+    const root = ReactDOM.createRoot(
+    document.getElementById('root') as HTMLElement
+    );
+    root.render(
+    <React.StrictMode>
+    <Cardapio />
+    </React.StrictMode>
+    );
+```
+18. Criando o Header.
+19. Criando o buscador.

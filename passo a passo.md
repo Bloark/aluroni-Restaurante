@@ -40,4 +40,5 @@ export default function Cardapio() {
 ```
 11. configrando caminho absoluto no tsconfig.json como "baseUrl": "src"
 12. Alterando caminhos de from '../../assets/logo.svg' para from 'assets/logo.svg'
+13. aplicando reset.css no \srcs index.css
 

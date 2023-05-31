@@ -7,6 +7,7 @@
 5. Instalçao do npm i typescript-plugin-css-modules sass
 6. Criação do arquivo \src\pages\Cardapio
 7. importação de logo.svg
+
 ```js
 import styles from './Cardapio.module.scss'
 import logo from '../../assets/logo.svg'
@@ -21,9 +22,11 @@ export default function Cardapio() {
     )
 }
 ```
+
 8. npm run build
 9. npm run start
 10. Covertendo um componente para ReactComponente e utilizado no projeto.
+
 ```js
 import styles from './Cardapio.module.scss'
 import {ReactComponent as Logo } from '../../assets/logo.svg'
@@ -38,7 +41,15 @@ export default function Cardapio() {
     )
 }
 ```
+
 11. configrando caminho absoluto no tsconfig.json como "baseUrl": "src"
 12. Alterando caminhos de from '../../assets/logo.svg' para from 'assets/logo.svg'
 13. aplicando reset.css no \srcs index.css
-
+14. Adicionando fontes no index.css
+```js
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Italiana', serif;
+  }
+```

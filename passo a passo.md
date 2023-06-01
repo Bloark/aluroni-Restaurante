@@ -74,3 +74,5 @@ export default function Cardapio() {
 ```
 18. Criando o Header.
 19. Criando o buscador.
+20. importando e aplicado arquivos pronto de css.
+21. importando pacotes de icons npm install react-icons

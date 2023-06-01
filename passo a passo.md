@@ -84,3 +84,4 @@ export default function Cardapio() {
 23. implementando os filtros e seus funcionamnetos.
 24. instalação do pacote className npm install classnames
 25. Criando o ordenador
+26. Craindo os itens

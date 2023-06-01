@@ -85,3 +85,4 @@ export default function Cardapio() {
 24. instalação do pacote className npm install classnames
 25. Criando o ordenador
 26. Craindo os itens
+27. Populando cada item.

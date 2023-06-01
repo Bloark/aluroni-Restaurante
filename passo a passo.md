@@ -81,3 +81,6 @@ export default function Cardapio() {
 20. importando e aplicado arquivos pronto de css.
 21. importando pacotes de icons npm install react-icons
 22. Criando filtros
+23. implementando os filtros e seus funcionamnetos.
+24. instalação do pacote className npm install classnames
+25. Criando o ordenador

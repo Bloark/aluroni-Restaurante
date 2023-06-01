@@ -86,3 +86,5 @@ export default function Cardapio() {
 25. Criando o ordenador
 26. Craindo os itens
 27. Populando cada item.
+28. Atualizando itens por tipo.
+29. implementando método de ordenar.

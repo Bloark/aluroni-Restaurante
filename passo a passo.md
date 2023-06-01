@@ -46,6 +46,7 @@ export default function Cardapio() {
 12. Alterando caminhos de from '../../assets/logo.svg' para from 'assets/logo.svg'
 13. aplicando reset.css no \srcs index.css
 14. Adicionando fontes no index.css
+
 ```js
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 * {
@@ -53,9 +54,11 @@ export default function Cardapio() {
   font-family: 'Italiana', serif;
   }
 ```
+
 15. Importando o Nomarlize @import-normalize; no src/index.css para reset do css
 16. instalando o npm install normalize.css
 17. importando o normalize no index.tsx
+
 ```js
     import React from 'react';
     import ReactDOM from 'react-dom/client';
@@ -72,7 +75,9 @@ export default function Cardapio() {
     </React.StrictMode>
     );
 ```
+
 18. Criando o Header.
 19. Criando o buscador.
 20. importando e aplicado arquivos pronto de css.
 21. importando pacotes de icons npm install react-icons
+22. Criando filtros
